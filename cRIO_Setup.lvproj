@@ -10,7 +10,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Needs Firmware Update.vi" Type="VI" URL="../Needs Firmware Update.vi"/>
 		<Item Name="Top Level.vi" Type="VI" URL="../Top Level.vi"/>
+		<Item Name="Verify Firmware.vi" Type="VI" URL="../Verify Firmware.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
