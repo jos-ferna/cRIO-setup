@@ -341,8 +341,14 @@
 			<Item Name="Controls" Type="Folder">
 				<Item Name="Important Paths.ctl" Type="VI" URL="../support/Controls/Important Paths.ctl"/>
 			</Item>
+			<Item Name="Apply Firmware.vi" Type="VI" URL="../support/Apply Firmware.vi"/>
+			<Item Name="Apply System Image.vi" Type="VI" URL="../support/Apply System Image.vi"/>
+			<Item Name="Find Firmware Path.vi" Type="VI" URL="../support/Find Firmware Path.vi"/>
+			<Item Name="Get Image.vi" Type="VI" URL="../support/Get Image.vi"/>
+			<Item Name="Needs Firmware Update.vi" Type="VI" URL="../support/Needs Firmware Update.vi"/>
 		</Item>
 		<Item Name="Discovery Method Enum.ctl" Type="VI" URL="../support/Controls/Discovery Method Enum.ctl"/>
+		<Item Name="SetUp Btn.ctl" Type="VI" URL="../support/Controls/SetUp Btn.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
@@ -458,6 +464,8 @@
 				<Item Name="Read From Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (I64).vi"/>
 				<Item Name="Read From Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (string).vi"/>
 				<Item Name="Path to URL inner.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL inner.vi"/>
+				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
+				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="CRI Get Remote cRIO Backplane Info.vi" Type="VI" URL="/&lt;userlib&gt;/_CRI/CRI Get Remote cRIO Backplane Info.vi"/>
