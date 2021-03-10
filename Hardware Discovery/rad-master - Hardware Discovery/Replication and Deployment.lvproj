@@ -346,6 +346,7 @@
 			<Item Name="Find Firmware Path.vi" Type="VI" URL="../support/Find Firmware Path.vi"/>
 			<Item Name="Get Image.vi" Type="VI" URL="../support/Get Image.vi"/>
 			<Item Name="Needs Firmware Update.vi" Type="VI" URL="../support/Needs Firmware Update.vi"/>
+			<Item Name="Current System Status.vi" Type="VI" URL="../support/Current System Status.vi"/>
 		</Item>
 		<Item Name="Discovery Method Enum.ctl" Type="VI" URL="../support/Controls/Discovery Method Enum.ctl"/>
 		<Item Name="SetUp Btn.ctl" Type="VI" URL="../support/Controls/SetUp Btn.ctl"/>
