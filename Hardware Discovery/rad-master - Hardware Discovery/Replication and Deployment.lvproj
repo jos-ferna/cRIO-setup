@@ -347,6 +347,8 @@
 			<Item Name="Get Image.vi" Type="VI" URL="../support/Get Image.vi"/>
 			<Item Name="Needs Firmware Update.vi" Type="VI" URL="../support/Needs Firmware Update.vi"/>
 			<Item Name="Current System Status.vi" Type="VI" URL="../support/Current System Status.vi"/>
+			<Item Name="Credentials Error Interception.vi" Type="VI" URL="../support/Credentials Error Interception.vi"/>
+			<Item Name="Get Credentials.vi" Type="VI" URL="../support/Get Credentials.vi"/>
 		</Item>
 		<Item Name="Discovery Method Enum.ctl" Type="VI" URL="../support/Controls/Discovery Method Enum.ctl"/>
 		<Item Name="SetUp Btn.ctl" Type="VI" URL="../support/Controls/SetUp Btn.ctl"/>
