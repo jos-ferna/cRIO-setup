@@ -30,7 +30,6 @@
 		<Property Name="server.viscripting.showScriptingOperationsInEditor" Type="Bool">false</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Hardware Discovery.vi" Type="VI" URL="../Hardware Discovery.vi"/>
-		<Item Name="Replication and Deployment.aliases" Type="Document" URL="../Replication and Deployment.aliases"/>
 		<Item Name="source" Type="Folder">
 			<Item Name="subVIs" Type="Folder">
 				<Item Name="App Images" Type="Folder">
@@ -173,7 +172,7 @@
 					<Item Name="rad_Get Target Info (Subnet) Wrapper.vi" Type="VI" URL="../subVIs/Targets/rad_Get Target Info (Subnet) Wrapper.vi"/>
 					<Item Name="rad_Get Target Info.vi" Type="VI" URL="../subVIs/Targets/rad_Get Target Info.vi"/>
 					<Item Name="rad_ReadTargetConfigOptions.vi" Type="VI" URL="../subVIs/Targets/rad_ReadTargetConfigOptions.vi"/>
-					<Item Name="rad_Refresh Target Information.vi" Type="VI" URL="../subVIs/Targets/rad_Refresh Target Information.vi"/>
+					<Item Name="rad_Refresh Target Information.vi" Type="VI" URL="../support/SubVIs/rad_Refresh Target Information.vi"/>
 					<Item Name="rad_Target Info Dialog.vi" Type="VI" URL="../subVIs/Targets/rad_Target Info Dialog.vi"/>
 					<Item Name="rad_WriteTargetConfigOptions.vi" Type="VI" URL="../subVIs/Targets/rad_WriteTargetConfigOptions.vi"/>
 					<Item Name="rad_Configure Discovery Settings Dialog.vi" Type="VI" URL="../subVIs/Targets/rad_Configure Discovery Settings Dialog.vi"/>
@@ -337,21 +336,23 @@
 				<Item Name="Error Handler - Event Handling Loop.vi" Type="VI" URL="../support/Error Handler - Event Handling Loop.vi"/>
 				<Item Name="Check Loop Error.vi" Type="VI" URL="../support/Check Loop Error.vi"/>
 			</Item>
-			<Item Name="SubVIs" Type="Folder"/>
+			<Item Name="SubVIs" Type="Folder">
+				<Item Name="Apply Firmware.vi" Type="VI" URL="../support/Apply Firmware.vi"/>
+				<Item Name="Apply System Image.vi" Type="VI" URL="../support/Apply System Image.vi"/>
+				<Item Name="Find Firmware Path.vi" Type="VI" URL="../support/Find Firmware Path.vi"/>
+				<Item Name="Get Image.vi" Type="VI" URL="../support/Get Image.vi"/>
+				<Item Name="Needs Firmware Update.vi" Type="VI" URL="../support/Needs Firmware Update.vi"/>
+				<Item Name="Current System Status.vi" Type="VI" URL="../support/Current System Status.vi"/>
+				<Item Name="Credentials Error Interception.vi" Type="VI" URL="../support/Credentials Error Interception.vi"/>
+				<Item Name="Get Credentials.vi" Type="VI" URL="../support/Get Credentials.vi"/>
+			</Item>
 			<Item Name="Controls" Type="Folder">
 				<Item Name="Important Paths.ctl" Type="VI" URL="../support/Controls/Important Paths.ctl"/>
+				<Item Name="Discovery Method Enum.ctl" Type="VI" URL="../support/Controls/Discovery Method Enum.ctl"/>
+				<Item Name="SetUp Btn.ctl" Type="VI" URL="../support/Controls/SetUp Btn.ctl"/>
+				<Item Name="System Credentials.ctl" Type="VI" URL="../support/SubVIs/System Credentials.ctl"/>
 			</Item>
-			<Item Name="Apply Firmware.vi" Type="VI" URL="../support/Apply Firmware.vi"/>
-			<Item Name="Apply System Image.vi" Type="VI" URL="../support/Apply System Image.vi"/>
-			<Item Name="Find Firmware Path.vi" Type="VI" URL="../support/Find Firmware Path.vi"/>
-			<Item Name="Get Image.vi" Type="VI" URL="../support/Get Image.vi"/>
-			<Item Name="Needs Firmware Update.vi" Type="VI" URL="../support/Needs Firmware Update.vi"/>
-			<Item Name="Current System Status.vi" Type="VI" URL="../support/Current System Status.vi"/>
-			<Item Name="Credentials Error Interception.vi" Type="VI" URL="../support/Credentials Error Interception.vi"/>
-			<Item Name="Get Credentials.vi" Type="VI" URL="../support/Get Credentials.vi"/>
 		</Item>
-		<Item Name="Discovery Method Enum.ctl" Type="VI" URL="../support/Controls/Discovery Method Enum.ctl"/>
-		<Item Name="SetUp Btn.ctl" Type="VI" URL="../support/Controls/SetUp Btn.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
